@@ -23,6 +23,8 @@ public class OrangeHRMLeave {
 		driver.findElement(By.name("username")).sendKeys(username);
 		driver.findElement(By.name("password")).sendKeys(password);
 		driver.findElement(By.xpath("//button[@type='submit']")).click();   
+		System.out.println("Reached the home page");
+		driver.close();
 	   
 	}
 
