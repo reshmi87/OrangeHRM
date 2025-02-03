@@ -11,12 +11,12 @@ import io.cucumber.testng.CucumberOptions;
 plugin = {"pretty", "html:target/result.html","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
         "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}, 
 		 monochrome=false,  
-		 tags = "@Login", 
+		 tags = "@Login2", 
 		 features = {"src/test/resources/features"}, 
 	        glue= "stepdefinition") 
 
 
-public class TestRunner extends AbstractTestNGCucumberTests{
+public class TestRunner2 extends AbstractTestNGCucumberTests{
 
 	@Override
     @DataProvider(parallel = false)
